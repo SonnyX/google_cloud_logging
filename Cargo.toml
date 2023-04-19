@@ -1,6 +1,6 @@
 [package]
 name = "google_cloud_logging"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ralph Bisschops <ralph.bisschops.dev@gmail.com>"]
 edition = "2021"
 description = "Google Cloud Structured Logging structures."
@@ -13,9 +13,9 @@ repository = "https://github.com/ralpha/google_cloud_logging"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
-chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1.0.160", features = ["derive"] }
+chrono = { version = "0.4.24", features = ["serde"] }
 
 [dev-dependencies]
-log = { version = "0.4.14", features = ["std"] }
-serde_json = "1.0.64"
+log = { version = "0.4.17", features = ["std"] }
+serde_json = "1.0.96"
